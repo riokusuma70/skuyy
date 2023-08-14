@@ -13,8 +13,8 @@
 		</div>
 		<div class="mx-auto max-w-xs lg:max-w-4xl">
 			<div class="flex flex-col font-serif items-center justify-center gap-y-10 pb-14 md:flex-row md:gap-y-0 md:gap-x-10 md:pb-20">
-				<EventCard icon="ring" title="Akad Nikah" time="Pukul 09:00 WITA" data-aos="flip-right" data-aos-duration="750" location="Jl. Masjid Al Hasanah No.1 Banjar Canggu, Permai, Tibubeneng, Kec. Kuta Utara, Kabupaten Badung, Bali 80361" />
-				<EventCard icon="wine-glass" title="Tasyakuran" time="Pukul 11:00 WITA" data-aos="flip-left" data-aos-duration="750" location="Gang krisnanatara 7 No B.32 Banjar Krisnantara, Tibubeneng, Kec. Kuta Utara, Kabupaten Badung, Bali 80361"  />
+				<EventCard icon="ring" title="Akad Nikah" time="Pukul 09:00 WITA" data-aos="flip-right" data-aos-duration="750" location="Jl. Masjid Al Hasanah No.1 Banjar Canggu, Permai, Tibubeneng, Kec. Kuta Utara, Kabupaten Badung, Bali 80361" mapsURL="https://goo.gl/maps/VTQfEgyHVbo9M5wGA"/>
+				<EventCard icon="wine-glass" title="Tasyakuran" time="Pukul 11:00 WITA" data-aos="flip-left" data-aos-duration="750" location="Gang krisnanatara 7 No B.32 Banjar Krisnantara, Tibubeneng, Kec. Kuta Utara, Kabupaten Badung, Bali 80361"  mapsURL="https://goo.gl/maps/gWJtxwuNDBvsH1PX7"/>
 			</div>
 		</div>
 	</section>
@@ -23,5 +23,5 @@
 <script setup lang="ts">
 	import type { LocationQueryValue } from 'vue-router';
 
-	const { recipient } = defineProps<{ recipient: string | LocationQueryValue[] }>();
+	const { recipient, mapsURL } = defineProps<{ recipient: string | LocationQueryValue[] , mapsURL: { type: String, required: true },}>();
 </script>
