@@ -76,10 +76,10 @@
 			<div class="mt-12 flex flex-col-reverse items-center justify-center gap-y-10 md:mt-24 md:flex-row md:gap-y-0 md:gap-x-10">
 				<img class="h-56 w-[28rem] rounded-lg lg:h-80" src="/images/wish.jpeg" alt="Bride Image" loading="lazy" data-aos="fade-right" data-aos-duration="1000" />
 				<div class="space-y-8 text-center">
-					<p class="text-sm text-slate-600 dark:text-gray-200 md:text-base" data-aos="fade-down" data-aos-duration="1000">
+					<p class="text-sm text-slate-600 dark:text-black-200 md:text-base" data-aos="fade-down" data-aos-duration="1000">
 						Merupakan suatu kehormatan dan kebahagiaan bagi kami apabila {{ recipient }} berkenan hadir dan memberikan do'a restunya untuk keberkahan pernikahan kami.
 					</p>
-					<p class="text-sm text-slate-600 dark:text-gray-200 md:text-base" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="300">Atas do'a dan restunya, kami ucapkan terima kasih.</p>
+					<p class="text-sm text-slate-600 dark:text-black-200 md:text-base" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="300">Atas do'a dan restunya, kami ucapkan terima kasih.</p>
 					<h3 class="font-serif text-3xl text-yellow-800 dark:text-yellow-300/90" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="400">Ivan & Virginia</h3>
 				</div>
 			</div>
