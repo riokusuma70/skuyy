@@ -173,7 +173,7 @@
 								
               <p class="absolute bottom-5 max-w-xs space-y-6 text-center font-serif text-xl text-gray-100 md:text-4xl">
                 
-                <a class="text-sm font-semibold uppercase tracking-widest font-body text-4xl text-yellow-300/90 md:text-4xl">
+                <a class="text-sm font-semibold uppercase tracking-widest font-serif text-4xl text-yellow-300/90 md:text-4xl">
                   Ivan <p>&</p> Virginia
                 </a>
               </p>
