@@ -1,11 +1,6 @@
 /** @type {import('tailwindcss').Config} **/
 
 module.exports = {
-	
-	content: [
-		"./src/**/*.{html,js}",
-		"./node_modules/tw-elements/dist/js/**/*.js"
-	  ],
 	darkMode: 'class',
 	theme: {
 		extend: {
@@ -15,7 +10,7 @@ module.exports = {
 			},
 		},
 	},
-	plugins: [require('@tailwindcss/forms'), require('tailwind-scrollbar'), require("tw-elements/dist/plugin") ({ nocompatible: true })],
+	plugins: [require('@tailwindcss/forms'), require('tailwind-scrollbar') ({ nocompatible: true })],
 
 	
 };
