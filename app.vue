@@ -29,16 +29,12 @@
 	const brideSection = ref<HTMLElement | null>(null);
 	const eventSection = ref<HTMLElement | null>(null);
 	const gallerySection = ref<HTMLElement | null>(null);
-	const giftSection = ref<HTMLElement | null>(null);
-	const protocolSection = ref<HTMLElement | null>(null);
 	const wishSection = ref<HTMLElement | null>(null);
 
 	onMounted(() => {
 		brideSection.value = document.getElementById('bride');
 		eventSection.value = document.getElementById('event');
 		gallerySection.value = document.getElementById('gallery');
-		giftSection.value = document.getElementById('gift');
-		protocolSection.value = document.getElementById('protocol');
 		wishSection.value = document.getElementById('wish');
 	});
 </script>
