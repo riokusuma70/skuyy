@@ -6,7 +6,7 @@
 				<hr class="border-slate-600 dark:border-gray-100" />
 			</div>
 			<div class="mx-auto w-3/4 md:w-2/3" data-aos="zoom-in" data-aos-duration="750">
-				<h3 class="mt-5 text-sm font-serif font-semibold text-slate-600 dark:text-gray-100 md:text-lg">
+				<h3 class="mt-5 text-sm font-serif font-semibold text-slate-600 dark:text-brown-100 md:text-lg">
 					Tanpa mengurangi rasa hormat, kami mengundang {{ recipient }} untuk dapat hadir pada acara <span class="font-bold">Akad Nikah dilanjutkan dengan Tasyakuran</span> putra dan putri kami yang insya Allah akan dilaksanakan pada
 				</h3>
 			</div>
