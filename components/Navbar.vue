@@ -19,18 +19,7 @@
 					<span class="text-xs font-semibold text-slate-600 transition-colors group-hover:text-gray-300 dark:text-yellow-300/90 dark:group-hover:text-white">Galeri</span>
 				</button>
 			</li>
-			<li class="group w-full text-center">
-				<button class="inline-flex flex-col items-center justify-center gap-y-1" type="button" title="Kado" @click="back(giftSection)">
-					<FontAwesomeIcon class="text-slate-600 transition-colors group-hover:text-gray-300 dark:text-yellow-300/90 dark:group-hover:text-white" :icon="['fas', 'gift']" size="lg" />
-					<span class="text-xs font-semibold text-slate-600 transition-colors group-hover:text-gray-300 dark:text-yellow-300/90 dark:group-hover:text-white">Kado</span>
-				</button>
-			</li>
-			<li class="group w-full text-center">
-				<button class="inline-flex flex-col items-center justify-center gap-y-1" type="button" title="Protokol" @click="back(protocolSection)">
-					<FontAwesomeIcon class="text-slate-600 transition-colors group-hover:text-gray-300 dark:text-yellow-300/90 dark:group-hover:text-white" :icon="['fas', 'head-side-mask']" size="lg" />
-					<span class="text-xs font-semibold text-slate-600 transition-colors group-hover:text-gray-300 dark:text-yellow-300/90 dark:group-hover:text-white">Protokol</span>
-				</button>
-			</li>
+	
 			<li class="group w-full text-center">
 				<button class="inline-flex flex-col items-center justify-center gap-y-1" type="button" title="Do'a" @click="back(wishSection)">
 					<FontAwesomeIcon class="text-slate-600 transition-colors group-hover:text-gray-300 dark:text-yellow-300/90 dark:group-hover:text-white" :icon="['fas', 'wand-magic-sparkles']" size="lg" />
@@ -46,8 +35,6 @@
 		brideSection: HTMLElement | null;
 		eventSection: HTMLElement | null;
 		gallerySection: HTMLElement | null;
-		giftSection: HTMLElement | null;
-		protocolSection: HTMLElement | null;
 		wishSection: HTMLElement | null;
 	}>();
 
