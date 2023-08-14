@@ -7,6 +7,12 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
-model wish {
-  id String @id @default(auto()) @map("_id") @db.ObjectId
+model Wish {
+  id          String @id @default(auto()) @map("_id") @db.ObjectId
+  name        String
+  message     String
+  attendance  String
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
 }
