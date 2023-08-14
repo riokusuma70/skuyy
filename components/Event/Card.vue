@@ -18,7 +18,7 @@
 		</span>
 		<div class="py-4 md:py-8">
 			<span class="mt-8 ">
-				<a class="btn" href="https://goo.gl/maps/x7RrviFUAznUFJsNA" target="_blank" rel="noopener noreferrer" title="Lihat Maps">
+				<a class="btn" :href="mapsURL" target="_blank" rel="noopener noreferrer" title="Lihat Maps">
 					<FontAwesomeIcon class="mr-2" :icon="['fas', 'paper-plane']" />
 					Lihat Maps
 				</a>
@@ -28,11 +28,11 @@
 </template>
 
 <script setup lang="ts">
-	const { icon, title, time } = defineProps({
+	const { icon, title, time, location, mapsURL } = defineProps({
 		icon: { type: String, required: true },
 		title: { type: String, required: true },
 		time: { type: String, required: true },
 		location: {type: String, required: true},
+		mapsURL: { type: String, required: true },
 	});
 </script>
-a
