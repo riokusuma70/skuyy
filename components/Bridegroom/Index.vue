@@ -23,7 +23,7 @@
 			</BridegroomProfile>
 			<span class="text-slate:600 font-serif font-body text-5xl dark:text-brown-200 md:-mt-52 md:text-7xl" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="150">&</span>
 			<BridegroomProfile name="Virginia Khofifah Akhmad" instagramURL="https://www.instagram.com/virgin.akhmad/">
-				<template #family>Putri pertama dari Bapak Akhmad Dimyanti & Ibu Eni Susanti</template>
+				<template #family>Putri pertama dari Bapak Akhmad Dimyati & Ibu Eni Susanti</template>
 				<template #image>
 					<img
 						class="h-60 w-60 rounded-full border-4 border-yellow-800 object-cover shadow-2xl dark:border-yellow-300/90 lg:h-96 lg:w-96"
