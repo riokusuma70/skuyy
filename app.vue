@@ -1,6 +1,6 @@
 <template>
 	<main class="antialiased">
-		<audio class="hidden" id="audio" loop src="/audio/1000.mp3"></audio>
+		<audio class="hidden" id="audio" loop src="/audio/grow.mp3"></audio>
 		<Splash :recipient="recipient" />
 		<About />
 		<Wave class="-mt-36" />
